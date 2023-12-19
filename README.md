@@ -1,4 +1,4 @@
-<style style="display:none;">
+<style style="visibility:hidden;">
     h1, h2, h3, h4 {
         font-family: consolas;
     }
