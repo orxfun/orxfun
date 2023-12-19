@@ -44,14 +44,14 @@
 - 🎓 studied in the Middle East Technical University
 - 🏫 then postdoc in Singapore University of Technology and Design
 - 🌍 now I'm located in Bonn, Germany, working at DHL
-- 💬 reach me via orx.ugur.arikan@gmail.com || [https://www.linkedin.com/in/uarikan/](https://www.linkedin.com/in/uarikan/)
+- 💬 reach me via orx.ugur.arikan@gmail.com 〰️ [https://www.linkedin.com/in/uarikan/](https://www.linkedin.com/in/uarikan/)
 - 💻 projects available here [https://github.com/orxfun](https://github.com/orxfun) mostly <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="15" height="15"/> but also some <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="15" height="15"/>
 
 <div class="two-columns">
 
 <div>
 
-## 🤟 I like
+<h2>🤟 I like</h2>
 
 - all things OR
 - optimization algorithms
@@ -65,7 +65,7 @@
 
 <div>
 
-## 🎈 𝙸'𝚖 currently 𝚞𝚙 𝚝𝚘
+<h2>🎈 𝙸'𝚖 currently 𝚞𝚙 𝚝𝚘</h2>
 
 - an expressive **mathematical programming** crate. why? I am not a fan of the [good_lp](https://crates.io/crates/good_lp) approach. Further, I find it error-prone. I'd love a concise and macro-free api which does not require more lines than the model on the paper has.
 
