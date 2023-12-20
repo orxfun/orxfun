@@ -15,9 +15,8 @@
 <h2 style="font-family: consolas;">🤟 I like</h2>
 
 - all things OR
-- optimization algorithms
-- data structures
-- Rust <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="15" height="15"/>
+- optimization algorithms & data structures
+- Rust 🦀
 - functional programming
 - speed & efficiency
 
