@@ -24,7 +24,7 @@
 
 <h2 style="font-family: consolas;">🎈 𝙸'𝚖 currently 𝚞𝚙 𝚝𝚘</h2>
 
-- an expressive **mathematical programming** crate. why? I am not a fan of the [good_lp](https://crates.io/crates/good_lp) approach. Further, I find it error-prone. I'd love a concise and macro-free api which does not require more lines than the model on the paper has.
+- an expressive **mathematical programming** crate. why? I am not a fan of the [good_lp](https://crates.io/crates/good_lp) approach. Further, I find it error-prone. I'd love a concise and macro-free api which does not require more lines than the model on the paper has, you may see a demo below.
 
 - crates which make **self referential collections** in Rust convenient & efficient while safe, the challenge is fun. so far,
   - I needed to build <a target="_blank" href="https://crates.io/crates/orx-pinned-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-pinned-vec</a> <a target="_blank" href="https://crates.io/crates/orx-fixed-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-fixed-vec</a> <a target="_blank" href="https://crates.io/crates/orx-split-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-split-vec</a> <a target="_blank" href="https://crates.io/crates/orx-imp-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-imp-vec</a>
@@ -33,3 +33,5 @@
 - efficient data structures that I need in algorithms, such as <a target="_blank" href="https://crates.io/crates/orx-priority-queue"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/>orx-priority-queue</a>
 
 - and some experimental functional ideas such as <a target="_blank" href="https://crates.io/crates/orx-closure"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/>orx-closure</a> and <a target="_blank" href="https://crates.io/crates/orx-funvec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/>orx-funvec</a>
+
+![Orx.MathProg](img/builder-pattern.gif)
