@@ -16,14 +16,14 @@
 
 - all things OR
 - optimization algorithms & data structures
-- Rust 🦀
+- Rust 🦀 to stay long
 - functional programming
 - speed & efficiency
 
 
 <h2 style="font-family: consolas;">🎈 𝙸'𝚖 currently 𝚞𝚙 𝚝𝚘</h2>
 
-- an expressive **mathematical programming** crate. why? I am not a fan of the [good_lp](https://crates.io/crates/good_lp) approach. Further, I find it error-prone. I'd love a concise and macro-free api which does not require more lines than the model on the paper has, you may see a demo below.
+- an expressive **mathematical programming** crate. why? I am not a fan of the [good_lp](https://crates.io/crates/good_lp) approach. Further, I find it error-prone. I'd love a concise and macro-free api which does not require more lines than the model on the paper has, you may see a C# demo below. as always, quite a different experience in rust :)
 
 - crates which make **self referential collections** in Rust convenient & efficient while safe, the challenge is fun. so far,
   - I needed to build <a target="_blank" href="https://crates.io/crates/orx-pinned-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-pinned-vec</a> <a target="_blank" href="https://crates.io/crates/orx-fixed-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-fixed-vec</a> <a target="_blank" href="https://crates.io/crates/orx-split-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-split-vec</a> <a target="_blank" href="https://crates.io/crates/orx-imp-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-imp-vec</a>
