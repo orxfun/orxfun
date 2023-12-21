@@ -4,7 +4,7 @@
 
 <h2 style="font-family: consolas;">📖 𝙰𝚋𝚘𝚞𝚝 𝙼𝚎</h2>
 
-- Operations Research (OR) Scientist, some prefer Decision Scientist
+- Operations Research (OR) Scientist / Practitioner ([tl;dr](https://orxfun.github.io/cv/))
 - 🎓 studied in the Middle East Technical University
 - 🏫 then postdoc in Singapore University of Technology and Design
 - 🌍 now located in Bonn, Germany, working at DHL
