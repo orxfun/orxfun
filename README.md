@@ -4,7 +4,7 @@
 
 <h2 style="font-family: consolas;">📖 𝙰𝚋𝚘𝚞𝚝 𝙼𝚎</h2>
 
-- Operations Research (OR) Scientist / Practitioner ([tl;dr](https://orxfun.github.io/cv/))
+- Operations Research (OR) Scientist / Practitioner ([resume tl;dr](https://orxfun.github.io/cv/))
 - 🎓 studied in the Middle East Technical University
 - 🏫 then postdoc in Singapore University of Technology and Design
 - 🌍 now located in Bonn, Germany, working at DHL
@@ -23,7 +23,10 @@
 
 <h2 style="font-family: consolas;">🎈 𝙸'𝚖 currently 𝚞𝚙 𝚝𝚘</h2>
 
-- an expressive **mathematical programming** crate. why? I am not a fan of the [good_lp](https://crates.io/crates/good_lp) approach. Further, I find it error-prone. I'd love a concise and macro-free api which does not require more lines than the model on the paper has, you may see a C# demo below. as always, quite a different experience in rust :)
+- an expressive **mathematical programming** crate. why? I am not a fan of the [good_lp](https://crates.io/crates/good_lp) approach. Further, I find it error-prone. I'd love a concise and macro-free api which does not require more lines than the model on the paper has.
+  * you may see a C# demo below,
+  * or find details of the api design of the underlying library [here](https://orxfun.github.io/orx-mathprog-gallery/).
+  * with rust however, it has so far been quite a different, challenging and educative experience  🤷‍♂️
 
 - crates which make **self referential collections** in Rust convenient & efficient while safe, the challenge is fun. so far,
   - I needed to build <a target="_blank" href="https://crates.io/crates/orx-pinned-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-pinned-vec</a> <a target="_blank" href="https://crates.io/crates/orx-fixed-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-fixed-vec</a> <a target="_blank" href="https://crates.io/crates/orx-split-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-split-vec</a> <a target="_blank" href="https://crates.io/crates/orx-imp-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-imp-vec</a>
