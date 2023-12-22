@@ -23,7 +23,7 @@
 
 <h2 style="font-family: consolas;">🎈 𝙸'𝚖 currently 𝚞𝚙 𝚝𝚘</h2>
 
-- An expressive, efficient and productive **mathematical programming / modeling** crate. why?
+- An expressive, efficient and productive **mathematical programming / modeling** crate for rust. why?
   * I appreciate how early [good_lp](https://crates.io/crates/good_lp) allowed us to build mathematical models in rust. However, I find the taken common approach imperative, verbose and error-prone.
   * Working on a macro-free and concise api which does not require more lines than the model on the paper has.
     * macros are super-powerful but doesn't have the exact same feeling of the regular type system.
