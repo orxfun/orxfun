@@ -50,4 +50,4 @@
 
 ![knapsack](https://orxfun.github.io/orx-mathprog-gallery/data/concise/knapsack.PNG)
 
-![Orx.MathProg](img/builder-pattern.gif)
+![Orx.MathProg](img/builder-pattern-smaller.gif)
