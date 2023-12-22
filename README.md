@@ -50,4 +50,6 @@
 
 ![knapsack](https://orxfun.github.io/orx-mathprog-gallery/data/concise/knapsack.PNG)
 
-![Orx.MathProg](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif)
+[mathematical modeling in action 🔎](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif)
+
+![knapsack](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack-540w.gif)
