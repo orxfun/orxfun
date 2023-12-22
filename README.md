@@ -42,7 +42,7 @@
   - Can we get best of both, can we implement in rust safely but without additional indirection and withtout wide pointers?
     * So far, I needed to build <a target="_blank" href="https://crates.io/crates/orx-pinned-vec">orx-pinned-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-fixed-vec">orx-fixed-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-split-vec">orx-split-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-imp-vec">orx-imp-vec</a>,
     * in order to be able to build <a target="_blank" href="https://crates.io/crates/orx-linked-list">orx-linked-list</a> with this alternative thin-reference approach.
-  - Efficient & flexible trees and graphs are in progress 🚧
+  - Efficient & flexible trees 🌴 and graphs are in progress 🚧
 
 - Also working on efficient data structures that I need in algorithms, such as <a target="_blank" href="https://crates.io/crates/orx-priority-queue">orx-priority-queue</a>.
 
@@ -50,4 +50,4 @@
 
 ![knapsack](https://orxfun.github.io/orx-mathprog-gallery/data/concise/knapsack.PNG)
 
-![Orx.MathProg](img/builder-pattern-smaller.gif)
+![Orx.MathProg](img/orx_model_building_knapsack.gif)
