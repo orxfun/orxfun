@@ -36,4 +36,6 @@
 
 - and some experimental functional ideas such as <a target="_blank" href="https://crates.io/crates/orx-closure"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/>orx-closure</a> and <a target="_blank" href="https://crates.io/crates/orx-funvec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/>orx-funvec</a>
 
+![knapsack](https://orxfun.github.io/orx-mathprog-gallery/data/concise/knapsack.PNG)
+
 ![Orx.MathProg](img/builder-pattern.gif)
