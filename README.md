@@ -16,25 +16,30 @@
 
 - all things OR
 - optimization algorithms & data structures
-- Rust 🦀 to stay long
+- rust 🦀 to stay for long
 - functional programming
 - speed & efficiency
 
 
 <h2 style="font-family: consolas;">🎈 𝙸'𝚖 currently 𝚞𝚙 𝚝𝚘</h2>
 
-- an expressive **mathematical programming** crate. why? I am not a fan of the [good_lp](https://crates.io/crates/good_lp) approach. Further, I find it error-prone. I'd love a concise and macro-free api which does not require more lines than the model on the paper has.
-  * you may see a C# demo below,
-  * or find details and design choices of the underlying library **<a target="_blank" href="https://orxfun.github.io/orx-mathprog-gallery/" style="color:tomato;">here</a>**.
-  * with rust however, it has so far been quite a different, challenging and educative experience  🤷‍♂️
+- an expressive, efficient and productive **mathematical programming** crate. why?
+  * I appreciate how early [good_lp](https://crates.io/crates/good_lp) allowed us to build mathematical models in rust. however, I find the taken approach imperative, verbose and error-prone.
+  * I am working on a macro-free and concise api which does not require more lines than the model on the paper has.
+  * you may see a C# demo below, and find details and design choices of the underlying library **<a target="_blank" href="https://orxfun.github.io/orx-mathprog-gallery/" style="color:tomato;">here</a>**:
+    * concise | simple | reusable | immutable | absolute model & data separation | abstraction over inputs | generic over solvers
+  * with rust, I am targeting these design choices; however,
+    * development is different: challenging, educative and elegant,
+    * init-commit in progress.
 
-- crates which make **self referential collections** in Rust convenient & efficient while safe, the challenge is fun. so far,
-  - I needed to build <a target="_blank" href="https://crates.io/crates/orx-pinned-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-pinned-vec</a> <a target="_blank" href="https://crates.io/crates/orx-fixed-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-fixed-vec</a> <a target="_blank" href="https://crates.io/crates/orx-split-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-split-vec</a> <a target="_blank" href="https://crates.io/crates/orx-imp-vec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-imp-vec</a>
-  - to be able to build <a target="_blank" href="https://crates.io/crates/orx-linked-list"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/> orx-linked-list</a> or a **tree** (wip) or a **graph** 🎯
+- rust crates which aim to make **self referential collections** convenient & efficient while safe. so far,
+  - I needed to build <a target="_blank" href="https://crates.io/crates/orx-pinned-vec">orx-pinned-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-fixed-vec">orx-fixed-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-split-vec">orx-split-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-imp-vec">orx-imp-vec</a>
+  - to be able to build <a target="_blank" href="https://crates.io/crates/orx-linked-list">orx-linked-list</a> with this alternative thin-reference approach.
+  - an efficient & flexible **tree** and **graph** are in progress 🚧
 
-- efficient data structures that I need in algorithms, such as <a target="_blank" href="https://crates.io/crates/orx-priority-queue"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/>orx-priority-queue</a>
+- efficient data structures that I need in algorithms, such as <a target="_blank" href="https://crates.io/crates/orx-priority-queue">orx-priority-queue</a>
 
-- and some experimental functional ideas such as <a target="_blank" href="https://crates.io/crates/orx-closure"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/>orx-closure</a> and <a target="_blank" href="https://crates.io/crates/orx-funvec"><img src="https://crates.io/assets/cargo.png" alt="" width="15" height="15"/>orx-funvec</a>
+- and some experimental functional ideas such as <a target="_blank" href="https://crates.io/crates/orx-closure">orx-closure</a> and <a target="_blank" href="https://crates.io/crates/orx-funvec">orx-funvec</a>
 
 ![knapsack](https://orxfun.github.io/orx-mathprog-gallery/data/concise/knapsack.PNG)
 
