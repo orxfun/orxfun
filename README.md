@@ -25,7 +25,7 @@
 
 - an expressive **mathematical programming** crate. why? I am not a fan of the [good_lp](https://crates.io/crates/good_lp) approach. Further, I find it error-prone. I'd love a concise and macro-free api which does not require more lines than the model on the paper has.
   * you may see a C# demo below,
-  * or find details of the api design of the underlying library [here](https://orxfun.github.io/orx-mathprog-gallery/).
+  * or find details and design choices of the underlying library **<a target="_blank" href="https://orxfun.github.io/orx-mathprog-gallery/" style="color:tomato;">here</a>**.
   * with rust however, it has so far been quite a different, challenging and educative experience  🤷‍♂️
 
 - crates which make **self referential collections** in Rust convenient & efficient while safe, the challenge is fun. so far,
