@@ -27,7 +27,7 @@
   * I appreciate how early [good_lp](https://crates.io/crates/good_lp) allowed us to build mathematical models in rust. however, I find the taken approach imperative, verbose and error-prone.
   * I am working on a macro-free and concise api which does not require more lines than the model on the paper has.
   * you may see a C# demo below, and find details and design choices of the underlying library **<a target="_blank" href="https://orxfun.github.io/orx-mathprog-gallery/" style="color:tomato;">here</a>**:
-    * concise | simple | reusable | immutable | absolute model & data separation | abstraction over inputs | generic over solvers
+    * concise │ simple │ reusable │ immutable │ model & data separation │ abstraction over inputs │ generic over solvers
   * with rust, I am targeting these design choices; however,
     * development is different: challenging, educative and elegant,
     * init-commit in progress.
