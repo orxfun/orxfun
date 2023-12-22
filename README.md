@@ -1,15 +1,15 @@
-<h1 align="center">Hi 👋, I'm Uğur Arıkan</h1>
+<h1 align="center">Hi, I'm Uğur Arıkan</h1>
 <h3 align="center">Operations Research & Optimization & Rust</h3>
 
 
-<h2 style="font-family: consolas;">📖 𝙰𝚋𝚘𝚞𝚝 𝙼𝚎</h2>
+<h2 style="font-family: consolas;">👋 𝙰𝚋𝚘𝚞𝚝 𝙼𝚎</h2>
 
 - Operations Research (OR) Scientist / Practitioner ([resume tl;dr](https://orxfun.github.io/cv/))
 - 🎓 Studied in the Middle East Technical University
 - 🏫 Postdoc in Singapore University of Technology and Design
 - 🌍 Currently located in Bonn, Germany, working at DHL
 - 💬 Reach me [orx.ugur.arikan@gmail.com](mailto:orx.ugur.arikan@gmail.com) 〰️ [https://www.linkedin.com/in/uarikan/](https://www.linkedin.com/in/uarikan/)
-- 💻 Projects available at [https://github.com/orxfun](https://github.com/orxfun) currently mostly in <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" title="rust" width="20" height="20"/> & <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" title="C#" width="18" height="18"/>
+- 💻 Projects available at [https://github.com/orxfun](https://github.com/orxfun) currently mostly in <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" title="rust" width="20" height="20"/> & <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" title="C#" width="18" height="18"/> published in <a href="https://crates.io/users/orxfun"><img src="https://crates.io/assets/cargo.png" width="20"/></a> and <a href="https://www.nuget.org/profiles/orx.ugur.arikan"><img src="https://www.nuget.org/Content/gallery/img/default-package-icon.svg" width="20"/></a>
 
 
 <h2 style="font-family: consolas;">🤟 I like</h2>
@@ -30,10 +30,10 @@
   * You may see a demo in C# below, and find design choices of the underlying library **<a target="_blank" href="https://orxfun.github.io/orx-mathprog-gallery/" style="color:tomato;">here</a>**.
   * With rust 🦀 I am targeting these design choices summarized in the table below; however, development is different: challenging, educative and elegant.
 
-||||
-|---|---|---|
-| concise & simple | solver agnostic | reusable & composable model components |
-| immutable | abstraction over inputs | separation of model from data | 
+|||||
+|---|---|---|---|
+| concise | simple | solver agnostic | reusable & composable model components |
+| immutable | type safe | separation of model from data | abstraction over inputs |
 
 - Working to make **self referential collections** convenient & efficient while staying safe. why?
   - Such collections are common building blocks of data structures used in many algorithms.
