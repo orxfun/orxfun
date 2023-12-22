@@ -25,10 +25,9 @@
 
 - An expressive, efficient and productive **mathematical programming / modeling** crate for rust. why?
   * I appreciate how early [good_lp](https://crates.io/crates/good_lp) allowed us to build mathematical models in rust. However, I find the taken common approach imperative, verbose and error-prone.
-  * Working on a macro-free and concise api which does not require more lines than the model on the paper has.
-    * macros are super-powerful but doesn't have the exact same feeling of the regular type system.
+  * Working on a macro-free and concise api which does not require more lines than the model on the paper has (*macros are super-powerful but doesn't have the exact same feeling of the regular type system*).
   * You may see a demo in C# below, and find design choices of the underlying library **<a target="_blank" href="https://orxfun.github.io/orx-mathprog-gallery/" style="color:tomato;">here</a>**.
-  * With rust 🦀 I am targeting these design choices summarized in the table below; however, development is different: challenging, educative and elegant.
+  * With rust 🦀 I am targeting similar design choices as summarized below; however, development is a different, challenging and educative adventure.
 
 |||||
 |---|---|---|---|
@@ -37,11 +36,9 @@
 
 - Working to make **self referential collections** convenient & efficient while staying safe. why?
   - Such collections are common building blocks of data structures used in many algorithms.
-    * They can be rapidly be implemented unsafely, in another language like c++ or unsafe rust.
-    * They can be rapidly be implemented safely in garbage collected languages but with lots of indirection.
-  - Can we get best of both, can we implement in rust safely but without additional indirection and withtout wide pointers?
-    * So far, I needed to build <a target="_blank" href="https://crates.io/crates/orx-pinned-vec">orx-pinned-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-fixed-vec">orx-fixed-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-split-vec">orx-split-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-imp-vec">orx-imp-vec</a>,
-    * in order to be able to build <a target="_blank" href="https://crates.io/crates/orx-linked-list">orx-linked-list</a> with this alternative thin-reference approach.
+  - They can be rapidly be implemented unsafely, in  unsafe rust or another language like c++. They can be rapidly be implemented safely in garbage collected languages but with lots of indirection.
+  - Can we get best of both, can we implement in rust safely but without additional indirection and withtout wide pointers? Yes!
+  - So far, I needed to build <a target="_blank" href="https://crates.io/crates/orx-pinned-vec">orx-pinned-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-fixed-vec">orx-fixed-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-split-vec">orx-split-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-imp-vec">orx-imp-vec</a> in order to be able to build <a target="_blank" href="https://crates.io/crates/orx-linked-list">orx-linked-list</a> with the alternative thin-reference approach.
   - Efficient & flexible trees 🌴 and graphs are in progress 🚧
 
 - Also working on efficient data structures that I need in algorithms, such as <a target="_blank" href="https://crates.io/crates/orx-priority-queue">orx-priority-queue</a>.
