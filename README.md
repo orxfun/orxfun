@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Uğur Arikan</h1>
+<h1 align="center">Hi 👋, I'm Uğur Arıkan</h1>
 <h3 align="center">Operations Research & Optimization & Rust</h3>
 
 
