@@ -37,8 +37,8 @@
 - Working to make **self referential collections** convenient & efficient while staying safe. why?
   - Such collections are common building blocks of data structures used in many algorithms.
   - They can be rapidly be implemented unsafely, in  unsafe rust or another language like c++. They can be rapidly be implemented safely in garbage collected languages but with lots of indirection.
-  - Can we get best of both, can we implement in rust safely but without additional indirection and withtout wide pointers? Yes!
-  - So far, I needed to build <a target="_blank" href="https://crates.io/crates/orx-pinned-vec">orx-pinned-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-fixed-vec">orx-fixed-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-split-vec">orx-split-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-imp-vec">orx-imp-vec</a> in order to be able to build <a target="_blank" href="https://crates.io/crates/orx-linked-list">orx-linked-list</a> with the alternative thin-reference approach.
+  - Can we get best of both, can we implement in rust safely but without additional indirection and without wide pointers? Yes!
+  - So far, I needed to build <a target="_blank" href="https://crates.io/crates/orx-pinned-vec">orx-pinned-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-fixed-vec">orx-fixed-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-split-vec">orx-split-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-imp-vec">orx-imp-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-selfref-col">orx-selfref-col</a> in order to be able to build <a target="_blank" href="https://crates.io/crates/orx-linked-list">orx-linked-list</a> with the alternative thin-reference approach.
   - Efficient & flexible trees 🌴 and graphs are in progress 🚧
 
 - Also working on efficient data structures that I need in algorithms, such as <a target="_blank" href="https://crates.io/crates/orx-priority-queue">orx-priority-queue</a>.
