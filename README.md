@@ -40,7 +40,7 @@
 
 - Recently, I started playing around with simple and efficient **concurrent data structures**, such as <a target="_blank" href="https://crates.io/crates/orx-concurrent-bag">orx-concurrent-bag</a>. The target is to use these as building blocks of an alternative lightweight and efficient parallelization library. 
 
-- Also working on efficient data structures that I need in algorithms, such as <a target="_blank" href="https://crates.io/crates/orx-priority-queue">orx-priority-queue</a>.
+- Also working on **efficient data structures** as I need in algorithms, such as <a target="_blank" href="https://crates.io/crates/orx-priority-queue">orx-priority-queue</a>.
 
 - And trying some experimental functional ideas such as <a target="_blank" href="https://crates.io/crates/orx-closure">orx-closure</a> and <a target="_blank" href="https://crates.io/crates/orx-funvec">orx-funvec</a>.
 
