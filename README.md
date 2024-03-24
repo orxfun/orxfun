@@ -5,7 +5,7 @@
 - Operations Research (OR) Scientist / Practitioner, studied in the Middle East Technical University, postdoc in Singapore University of Technology and Design ([resume](https://orxfun.github.io/cv/))
 - Currently located in Bonn, Germany, working at DHL 
 - 💬 Reach me [orx.ugur.arikan@gmail.com](mailto:orx.ugur.arikan@gmail.com) 〰️ [https://www.linkedin.com/in/uarikan/](https://www.linkedin.com/in/uarikan/)
-- Projects available at [https://github.com/orxfun](https://github.com/orxfun) mostly in [rust](https://crates.io/users/orxfun) & [C#](https://www.nuget.org/profiles/orx.ugur.arikan).
+- Projects available at [https://github.com/orxfun](https://github.com/orxfun) mostly in [rust](https://crates.io/users/orxfun) & [c#](https://www.nuget.org/profiles/orx.ugur.arikan).
 
 
 <h2 style="font-family: consolas;">🤟 I like</h2>
