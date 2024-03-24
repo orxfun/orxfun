@@ -37,7 +37,8 @@
   - Towards this target, I worked on <a target="_blank" href="https://crates.io/crates/orx-pinned-vec">orx-pinned-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-fixed-vec">orx-fixed-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-split-vec">orx-split-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-imp-vec">orx-imp-vec</a> & <a target="_blank" href="https://crates.io/crates/orx-selfref-col">orx-selfref-col</a>.
   - This allowed me to build <a target="_blank" href="https://crates.io/crates/orx-linked-list">orx-linked-list</a> with regular `&` references and without any unsafe pointer access, unlike the std implementation.
   - Efficient & flexible trees 🌴 and graphs are in progress.
-  - As a by-product, vectors with pinned elements led to convenient <a target="_blank" href="https://crates.io/crates/orx-concurrent-bag">orx-concurrent-bag</a>.
+
+- Recently, I started playing around with simple and efficient **concurrent data structures**, such as <a target="_blank" href="https://crates.io/crates/orx-concurrent-bag">orx-concurrent-bag</a>. The target is to use these as building blocks of an alternative lightweight and efficient parallelization library. 
 
 - Also working on efficient data structures that I need in algorithms, such as <a target="_blank" href="https://crates.io/crates/orx-priority-queue">orx-priority-queue</a>.
 
