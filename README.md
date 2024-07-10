@@ -37,7 +37,7 @@ Working more and more on concurrent programming and parallel processing in rust.
 * First, worked on defining the <a target="_blank" href="https://crates.io/crates/orx-pinned-vec">PinnedVec</a> trait and its implementations such as the <a target="_blank" href="https://crates.io/crates/orx-split-vec">SplitVec</a> and <a target="_blank" href="https://crates.io/crates/orx-fixed-vec">FixedVec</a>. A pinned vector is nothing but a vector which keeps its elements pinned in their memory locations.
 * Turns out this feature is very useful in defining concurrent collections such as <a target="_blank" href="https://crates.io/crates/orx-concurrent-bag">ConcurrentBag</a>, <a target="_blank" href="https://crates.io/crates/orx-concurrent-vec">ConcurrentVec</a> or  <a target="_blank" href="https://crates.io/crates/orx-concurrent-ordered-bag">ConcurrentOrderedBag</a>. This allows to write outputs of a computation concurrently.
 * Then, the missing piece is to provide inputs concurrently with the convenience of an iterator. And hence, the <a target="_blank" href="https://crates.io/crates/orx-concurrent-iter">ConcurrentIter</a>.
-* Having concurrent readers and concurrent writers, we can have a very simple yet very performant parallel iterator <a target="_blank" href="https://crates.io/crates/orx-parallel">PartIter</a>.
+* Having concurrent readers and concurrent writers, we can have a very simple yet very performant parallel iterator <a target="_blank" href="https://crates.io/crates/orx-parallel">Par</a>.
 
 <h3 style="font-family: consolas; color:tomato">self referential collections</h3>
 
