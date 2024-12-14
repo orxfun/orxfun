@@ -18,13 +18,13 @@ me |> Middle East Technical University (Ankara)
 I am very enthusiastic about all things <span style="color:tomato">OR</span>; my interests include mathematical programming, optimization algorithms, networks, routing, multiobjective decision making and decision making under uncertainty.
 
 I also like programming languages.
-* rust being my distant favorite ❤️🦀. after a nice transition, now it is an important part of my daily work. hoping and working for it to stay for a long time.
+* rust being my favorite ❤️🦀 after a nice transition, it is now an important part of my daily tasks. hoping and working for it to stay for a long time.
 * also frequently use c#, react and typescript, which I find comfortable 👍
 * and I am curiously and closely watching go, f#, zig and mojo 🤔
 
 <h2 style="font-family: consolas;">🎯 𝙸'𝚖 𝚞𝚙 𝚝𝚘</h2>
 
-Goals evolve and change shape. More precisely, there are two set goals: (i) OR & rust, and (ii) concurrency. However, exciting side quests appear and join while working towards these goals. Current workflows can be summarized as follows.
+Goals evolve and change shape. There are two mature goals: (i) OR & rust, and (ii) concurrency. However, exciting side quests appear and join while working towards these goals. Current workflows can be summarized as follows.
 
 <h3 style="font-family: consolas; color:tomato">OR & rust</h3>
 
