@@ -83,7 +83,7 @@ As mentioned, many interesting topics appear which either help to achieve the go
 * [orx-priority-queue](https://crates.io/crates/orx-priority-queue) ➛ Priority queue traits and high performance d-ary heap implementations.
 * [https://crates.io/crates/orx-pseudo-default](https://crates.io/crates/orx-pseudo-default) ➛ PseudoDefault trait allows to create a cheap default instance of a type, which does not claim to be useful.
 
-*as you might guess, **orx** for all things OR.*
+*as you might guess, **orx** stands for all things OR.*
 
 <h3 style="font-family: consolas; color:tomato">blog</h3>
 
