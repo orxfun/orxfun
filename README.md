@@ -24,7 +24,7 @@ I also like programming languages.
 
 <h2 style="font-family: consolas;">🎯 𝙸'𝚖 𝚞𝚙 𝚝𝚘</h2>
 
-Goals evolve and change shape. There are two mature goals: (i) OR & rust, and (ii) concurrency. However, exciting side quests appear and join while working towards these goals. Current workflows can be summarized as follows.
+Goals evolve and change shape. There are two mature goals: (i) OR & rust, and (ii) concurrency. However, exciting side quests appear on the way and join. Current workflows can be summarized as follows.
 
 <h3 style="font-family: consolas; color:tomato">OR & rust</h3>
 
