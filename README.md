@@ -30,7 +30,7 @@ Goals evolve and change shape. There are two mature goals: (i) OR & rust, and (i
 
 Two things I am most experienced in and enthusiastic about. After working on optimization algorithms on various languages, I am convinced that rust is the perfect match. Obviously, its speed and memory safety play an important role on this. However, a factor which is at least as important is its powerful type system that allows us to be very productive while developing efficient polymorphic algorithms.
 
-The main goal is to contribute to OR ecosystem in rust. There are different milestones. Current focus is on developing a **mathematical modeling** crate.
+The main goal is to contribute to OR ecosystem in rust. There are different milestones. Current focus with highest priority is developing a **mathematical modeling** crate.
 
 <h4 style="font-family: consolas; color:orange">mathematical modeling</h4>
 
