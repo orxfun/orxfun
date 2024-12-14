@@ -40,9 +40,7 @@ Alternatively, it is a mathematical representation of a decision problem; which 
 
 Mathematical modelers use an almost standard syntax while writing the problem on paper, which is concise, expressive, composable and reusable.
 
-When the mathematical modeling tool do not have these properties, the entire modeling and optimization process becomes less productive, hard to maintain and error prone.
-
-We do not yet have a modeling library with the abovementioned properties. Hence, the goal is to develop an expressive, efficient and productive mathematical modeling crate for rust with the following features:
+When the mathematical modeling tool do not have these properties, the entire modeling and optimization process becomes less productive, hard to maintain and error prone. This is the current situation in rust. Hence, the goal is to develop an expressive, efficient and productive mathematical modeling crate for rust with the following features:
   * macro-free and concise api which does not require more lines than model-on-paper has
   * simple, solver agnostic, immutable, type safe
   * with a separation of model and data, and hence, enable abstraction over inputs
