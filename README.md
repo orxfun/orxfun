@@ -55,14 +55,14 @@ This is an exciting and ongoing journey that started with working on pinned vect
 
 When memory locations of elements do not implicitly change while the vector grows, providing memory safety in a concurrent program becomes much easier.
 
-> [ConcurrentBag](https://crates.io/crates/orx-concurrent-bag) and [ConcurrentOrderedBag](https://crates.io/crates/orx-concurrent-ordered-bag) are developed as two efficient concurrent grow-only collections aiming high performance concurrent growth.
+> [ConcurrentBag](https://crates.io/crates/orx-concurrent-bag) and [ConcurrentOrderedBag](https://crates.io/crates/orx-concurrent-ordered-bag) are developed as two efficient concurrent grow-only collections aiming high performance concurrent collections.
 
 Adding concurrent element safety through [ConcurrentOption](https://crates.io/crates/orx-concurrent-option) in addition to pinned element guarantees allows for a concurrent vector with grow & read & update functionalities, namely [ConcurrentVec](https://crates.io/crates/orx-concurrent-vec). The api of the concurrent vector will continue to grow with the objective to get closer to the standard vector and be its **concurrent counterpart**.
 
-In another workstream, [ConcurrentIter](https://crates.io/crates/orx-concurrent-iter) is defined and implemented. Considering concurrent iterator as a concurrent provider of inputs and concurrent bags as the collector of outputs, it has been straightforward to develop a **parallel processing** crate [orx-parallel](https://crates.io/crates/orx-parallel) which is very efficient and conveniently configurable. But why do we need another crate while we have rayon:
+In another workstream, [ConcurrentIter](https://crates.io/crates/orx-concurrent-iter) is defined. Considering concurrent iterator as a concurrent provider of inputs and concurrent bags as the collector of outputs, it has been straightforward to develop the **parallel processing** crate [orx-parallel](https://crates.io/crates/orx-parallel) which is very efficient and conveniently configurable. But why do we need another crate while we have rayon:
 * because they are different which is great, orx-parallel approaches with a different perspective.
-* it is simple and customizable per computation.
-* it is possible to abstract parallel runner which will hopefully lead to interesting strategies and experiments (see the [discussion](https://github.com/orxfun/orx-parallel/discussions/26)).
+* it is performant, simple and customizable per computation.
+* it is possible to abstract parallel runner which will hopefully lead to interesting strategies and experiments (see the related [discussion](https://github.com/orxfun/orx-parallel/discussions/26)).
 
 <h3 style="font-family: consolas; color:tomato">self referential collections</h3>
 
@@ -75,7 +75,7 @@ This is another interesting topic in the intersection of OR and rust.
 
 <h3 style="font-family: consolas; color:tomato">miscellaneous side quests</h3>
 
-As mentioned, many interesting topics appear which help to achieve the goals or hopefully improve the rust ecosystem. Some of the crates resulting from these experiences are as follows:
+As mentioned, many interesting topics appear which either help to achieve the goals or improve the rust ecosystem, or both. Some of the crates resulting from these experiences are as follows:
 
 * [orx-iterable](https://crates.io/crates/orx-iterable) ➛ Defines and implements Iterable, Collection and CollectionMut traits to represent types that can be iterated over multiple times.
 * [orx-v](https://crates.io/crates/orx-v) ➛ Traits to unify all vectors!
