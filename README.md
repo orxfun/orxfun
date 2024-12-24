@@ -81,7 +81,7 @@ As mentioned, many interesting topics appear which either help to achieve the go
 * [orx-v](https://crates.io/crates/orx-v) ➛ Traits to unify all vectors!
 * [orx-imp-vec](https://crates.io/crates/orx-imp-vec) ➛ ImpVec stands for immutable push vector 👿, it is a data structure which allows appending elements with a shared reference.
 * [orx-priority-queue](https://crates.io/crates/orx-priority-queue) ➛ Priority queue traits and high performance d-ary heap implementations.
-* [https://crates.io/crates/orx-pseudo-default](https://crates.io/crates/orx-pseudo-default) ➛ PseudoDefault trait allows to create a cheap default instance of a type, which does not claim to be useful.
+* [orx-pseudo-default](https://crates.io/crates/orx-pseudo-default) ➛ PseudoDefault trait allows to create a cheap default instance of a type, which does not claim to be useful.
 
 *as you might guess, **orx** stands for all things OR.*
 
