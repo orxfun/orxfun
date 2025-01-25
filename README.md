@@ -70,7 +70,7 @@ This is another interesting topic in the intersection of OR and rust.
 * Self referential collections are often used as core data structures for algorithms.
 * The goal is to define sort of a core construct which would make it convenient to build and generate variants. <a target="_blank" href="https://crates.io/crates/orx-selfref-col">SelfRefCol</a> aims to fulfil this goal defining the collection variants and handling most of the work in providing safe and efficient storage where elements are referencing other elements.
 * Started working on the [LinkedList](https://crates.io/crates/orx-linked-list) which turned out to be very efficient with unique properties.
-* Currently working on efficient & flexible trees 🌴
+* Continued with a beautiful, convenient and efficient 🌳 [Tree](https://crates.io/crates/orx-tree).
 * Graphs are the next steps.
 
 <h3 style="font-family: consolas; color:tomato">miscellaneous side quests</h3>

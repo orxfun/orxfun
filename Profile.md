@@ -25,7 +25,7 @@ Two mature goals (i) OR & rust, and (ii) concurrency; and exciting side quests.
 
 <h3 style="font-family: consolas; color:tomato">OR & rust</h3>
 
-Among the milesones, current focus with highest priority is developing a **mathematical modeling** crate:
+Among the milestones, current focus with highest priority is developing a **mathematical modeling** crate:
 * expressive, solver-agnostic, type-safe, macro-free and concise with no more lines than model-on-paper
 * below is a demo in c# and <a target="_blank" href="https://orxfun.github.io/orx-mathprog-gallery/">here</a> is the documentation
 
@@ -48,6 +48,7 @@ In another workstream, [ConcurrentIter](https://crates.io/crates/orx-concurrent-
 Some of the crates resulting from interesting side topics are as follows:
 
 * [orx-iterable](https://crates.io/crates/orx-iterable) ➛ Defines and implements Iterable, Collection and CollectionMut traits to represent types that can be iterated over multiple times.
+* [orx-tree](https://crates.io/crates/orx-tree) ➛ A beautiful, convenient and efficient 🌳.
 * [orx-linked-list](https://crates.io/crates/orx-linked-list) ➛ A linked list implementation with unique features and an extended list of constant time methods providing high performance traversals and mutations.
 * [orx-v](https://crates.io/crates/orx-v) ➛ Traits to unify all vectors!
 * [orx-imp-vec](https://crates.io/crates/orx-imp-vec) ➛ ImpVec stands for immutable push vector 👿, it is a data structure which allows appending elements with a shared reference.
