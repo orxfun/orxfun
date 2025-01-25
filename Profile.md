@@ -21,7 +21,7 @@ I also like programming languages.
 
 <h2 style="font-family: consolas;">🎯 𝙸'𝚖 𝚞𝚙 𝚝𝚘</h2>
 
-Two mature goals (i) OR & rust, and (ii) concurrency; and exciting side quests.
+Two goals (i) OR & rust, and (ii) concurrency, and fun quests.
 
 <h3 style="font-family: consolas; color:tomato">OR & rust</h3>
 
