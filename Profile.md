@@ -1,68 +1,70 @@
-<h1 align="center">Hi, I'm Uğur Arıkan</h1>
+<h1 align="center">Uğur Arıkan</h1>
 
-I am an operations research (<span style="color:tomato">OR</span>) scientist, interested in optimization, algorithms and systems thinking & design.
+I am an <span style="color:tomato">operations research (OR)</span> scientist, interested in optimization, algorithms and systems thinking & design.
 
 ```
 me |> Middle East Technical University (Ankara)
    |> Singapore University of Technology and Design (Singapore)
-   |> DHL Data & Analytics (Bonn)
+   |> DHL Data & AI (Bonn)
 ```
 
-| [github](https://github.com/orxfun) | [email](mailto:orx.ugur.arikan@gmail.com) | [linkedin](https://www.linkedin.com/in/uarikan/) | [cv](https://orxfun.github.io/cv/) | [crates](https://crates.io/users/orxfun) | [nuget](https://www.nuget.org/profiles/orx.ugur.arikan) |
+| [github](https://github.com/orxfun) | [email](mailto:orx.ugur.arikan@gmail.com) | [discord](https://discord.gg/Jr9XDVqDtV) | [linkedin](https://www.linkedin.com/in/uarikan/) | [cv](https://orxfun.github.io/cv/) | [crates](https://crates.io/users/orxfun) | [nuget](https://www.nuget.org/profiles/orx.ugur.arikan) |
+
+
 
 <h2 style="font-family: consolas;">❤️ I like</h2>
 
-I am very enthusiastic about all things <span style="color:tomato">OR</span>; my interests include mathematical programming, optimization algorithms, networks, routing, multiobjective decision making and decision making under uncertainty.
+I am enthusiastic about all things <span style="color:tomato">OR</span>: decision science, mathematical optimization, algorithms, networks, routing, multiobjective decision making and decision making under uncertainty. I enjoy <span style="color:tomato">computation</span> a lot, working on efficient concurrent data structures and parallel computation. Least but not the least, I love <span style="color:tomato">rust</span> ❤️🦀.
 
-I also like programming languages.
-* rust ❤️🦀
-* frequently c#, react and typescript 👍
-* curiously and closely watching go, f#, zig and mojo 🤔
+
 
 <h2 style="font-family: consolas;">🎯 𝙸'𝚖 𝚞𝚙 𝚝𝚘</h2>
 
-Two goals (i) OR & rust, and (ii) concurrency, and fun quests.
-
 <h3 style="font-family: consolas; color:tomato">OR & rust</h3>
 
-Among the milestones, current focus with highest priority is developing a **mathematical modeling** crate:
-* expressive, solver-agnostic, type-safe, macro-free and concise with no more lines than model-on-paper
-* below is a demo in c# and <a target="_blank" href="https://orxfun.github.io/orx-mathprog-gallery/">here</a> is the documentation
+Two of the big challenges in applying OR in practice might be (i) to explain complex solutions to decision makers and (ii) to address uniqueness or custom requirements of each real life problem. I am not yet actively working on (i) but I find using LLMs for this purpose very promising and watching the advances closely.
 
-<h3 style="font-family: consolas; color:tomato">concurrent programming and parallel processing</h3>
+For the latter, we are seeking flexible tools which allow for conveniently representing different sets of real life constraints. Although speed is an important feature in optimization tools, we even consider sacrificing performance to be able to deliver faster.
 
-This is an exciting and ongoing journey that started with working on pinned vectors; i.e., vectors with pinned elements guarantees.
+Imo, speed and type system of rust makes it the perfect language for rich and flexible optimization algorithms. It allows us to compose real life constraints as if we are working with a dynamic high level language, while our solutions are performant and memory efficient. For more details on this fitness, you may see the following [article](https://orxfun.github.io/orxfun-notes/#/zero-cost-composition-2025-10-15) and [talk](https://orxfun.github.io/talk-composing-zero-cost-abstractions-in-route-optimization/).
 
-> *see [PinnedVec](https://crates.io/crates/orx-pinned-vec) for the trait definition, and [SplitVec](https://crates.io/crates/orx-split-vec) and [FixedVec](https://crates.io/crates/orx-fixed-vec) for two implementations*
-
-When memory locations of elements do not implicitly change while the vector grows, providing memory safety in a concurrent program becomes much easier.
-
-> [ConcurrentBag](https://crates.io/crates/orx-concurrent-bag) and [ConcurrentOrderedBag](https://crates.io/crates/orx-concurrent-ordered-bag) are developed as two efficient concurrent grow-only collections aiming high performance concurrent collections.
-
-Adding concurrent element safety through [ConcurrentOption](https://crates.io/crates/orx-concurrent-option) in addition to pinned element guarantees allows for a concurrent vector with grow & read & update functionalities, namely [ConcurrentVec](https://crates.io/crates/orx-concurrent-vec). The api of the concurrent vector will continue to grow with the objective to get closer to the standard vector and be its **concurrent counterpart**.
-
-In another workstream, [ConcurrentIter](https://crates.io/crates/orx-concurrent-iter) is defined. Considering concurrent iterator as a concurrent provider of inputs and concurrent bags as the collector of outputs, it has been straightforward to develop the **parallel processing** crate [orx-parallel](https://crates.io/crates/orx-parallel) which is very efficient and conveniently configurable.
-
-<h3 style="font-family: consolas; color:tomato">miscellaneous side quests</h3>
-
-Some of the crates resulting from interesting side topics are as follows:
-
-* [orx-iterable](https://crates.io/crates/orx-iterable) ➛ Defines and implements Iterable, Collection and CollectionMut traits to represent types that can be iterated over multiple times.
-* [orx-tree](https://crates.io/crates/orx-tree) ➛ A beautiful, convenient and efficient 🌳.
-* [orx-linked-list](https://crates.io/crates/orx-linked-list) ➛ A linked list implementation with unique features and an extended list of constant time methods providing high performance traversals and mutations.
-* [orx-v](https://crates.io/crates/orx-v) ➛ Traits to unify all vectors!
-* [orx-imp-vec](https://crates.io/crates/orx-imp-vec) ➛ ImpVec stands for immutable push vector 👿, it is a data structure which allows appending elements with a shared reference.
-* [orx-priority-queue](https://crates.io/crates/orx-priority-queue) ➛ Priority queue traits and high performance d-ary heap implementations.
-* [orx-pseudo-default](https://crates.io/crates/orx-pseudo-default) ➛ PseudoDefault trait allows to create a cheap default instance of a type, which does not claim to be useful.
-
-Also,
-* [orxfun-notes](https://orxfun.github.io/orxfun-notes/) ➛ articles on my observations & experiences
-
-<h2 style="font-family: consolas;">Mathematical Modeling Demo</h2>
-
-![knapsack](https://orxfun.github.io/orx-mathprog-gallery/data/concise/knapsack.PNG)
-
-[mathematical modeling in action 🔎](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif)
+My work on OR & rust goal is currently split into two parallel streams:
+* Composable, flexible and efficient <span style="color:tomato">local search</span> algorithms ([orx-local-search](https://github.com/orxfun/orx-local-search)). I will probably branch from this to focus specifically on <span style="color:tomato">vehicle routing</span> algorithms.
+* An expressive, solver-agnostic, type-safe, macro-free and concise <span style="color:tomato">mathematical modeling</span> tool ([orx-math-model](https://github.com/orxfun/orx-math-model)). You may see a prototype in c# below ([zoom in 🔎](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif)).
 
 ![knapsack](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack-540w.gif)
 
+
+
+
+
+
+<h3 style="font-family: consolas; color:tomato">concurrency and parallel computing</h3>
+
+I am working on a high performance, configurable and expressive parallel computation library in rust, [orx-parallel](https://crates.io/crates/orx-parallel). The crate is considerably mature, but also continuously improving with many new exciting challenges.
+
+The journey to build a parallel computation crate involved developing pinned vectors ([PinnedVec](https://crates.io/crates/orx-pinned-vec), [SplitVec](https://crates.io/crates/orx-split-vec) and [FixedVec](https://crates.io/crates/orx-fixed-vec)) and various concurrent data structures such as [ConcurrentBag](https://crates.io/crates/orx-concurrent-bag), [ConcurrentOrderedBag](https://crates.io/crates/orx-concurrent-ordered-bag), [ConcurrentIter](https://crates.io/crates/orx-concurrent-iter), [ConcurrentRecursiveIter](https://crates.io/crates/orx-concurrent-recursive-iter). While improving the parallel computation library, these data structures continue to evolve.
+
+On the other hand, [ConcurrentVec](https://crates.io/crates/orx-concurrent-vec) is developed without parallel computation in focus. It is designed to be the concurrent counterpart of the standard vec.
+
+
+
+
+<h3 style="font-family: consolas; color:tomato">miscellaneous side quests</h3>
+
+I also work on various side topics which are either relevant to efficient computation, or to improve ergonomics, or related to rust patterns. Some examples are:
+
+* [orx-iterable](https://crates.io/crates/orx-iterable) ➛ Defines and implements Iterable, Collection and CollectionMut traits to represent types that can be iterated over multiple times.
+* [orx-tree](https://crates.io/crates/orx-tree) ➛ A beautiful, convenient and efficient 🌳.
+* [orx-v](https://crates.io/crates/orx-v) ➛ Traits to unify all vectors!
+* [orx-priority-queue](https://crates.io/crates/orx-priority-queue) ➛ Priority queue traits and high performance d-ary heap implementations.
+* [orx-meta](https://crates.io/crates/orx-meta) ➛ Meta structures such as statically typed queues of heterogeneous elements.
+
+Finally, I write articles on this journey at [orxfun-notes](https://orxfun.github.io/orxfun-notes/).
+
+
+
+
+<h2 style="font-family: consolas;">Connect</h2>
+
+If you are interested in what I am interested, feel free to [email](mailto:orx.ugur.arikan@gmail.com), open an issue or contribute to the repos on [github](https://github.com/orxfun), or share your ideas at [discord](https://discord.gg/Jr9XDVqDtV).
