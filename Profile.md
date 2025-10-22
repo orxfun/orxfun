@@ -67,4 +67,4 @@ Finally, I write articles on this journey at [orxfun-notes](https://orxfun.githu
 
 <h2 style="font-family: consolas;">Connect</h2>
 
-If you are interested in what I am interested, feel free to [email](mailto:orx.ugur.arikan@gmail.com), open an issue or contribute to the repos on [github](https://github.com/orxfun), or share your ideas at [discord](https://discord.gg/Jr9XDVqDtV).
+If you are interested in what I aim, feel free to [email](mailto:orx.ugur.arikan@gmail.com), open an issue or contribute to the repos on [github](https://github.com/orxfun), or share your ideas at [discord](https://discord.gg/Jr9XDVqDtV), or [sponsor](https://github.com/sponsors/orxfun).
