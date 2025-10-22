@@ -1,12 +1,6 @@
 <h1 align="center">Uğur Arıkan</h1>
 
-I am an <span style="color:tomato">**operations research (OR)**</span> scientist, interested in optimization, algorithms and systems thinking & design.
-
-```
-me |> Middle East Technical University (Ankara)
-   |> Singapore University of Technology and Design (Singapore)
-   |> DHL Data & AI (Bonn)
-```
+I am an <span style="color:tomato">**operations research (OR)**</span> scientist, interested in optimization, algorithms and systems thinking & design; and a rust developer 🦀.
 
 | [github](https://github.com/orxfun) | [email](mailto:orx.ugur.arikan@gmail.com) | [discord](https://discord.gg/Jr9XDVqDtV) | [linkedin](https://www.linkedin.com/in/uarikan/) | [cv](https://orxfun.github.io/cv/) | [crates](https://crates.io/users/orxfun) | [nuget](https://www.nuget.org/profiles/orx.ugur.arikan) |
 
