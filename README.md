@@ -1,6 +1,6 @@
 <h1 align="center">Uğur Arıkan</h1>
 
-I am an <span style="color:tomato">operations research (OR)</span> scientist, interested in optimization, algorithms and systems thinking & design.
+I am an <span style="color:tomato">**operations research (OR)**</span> scientist, interested in optimization, algorithms and systems thinking & design.
 
 ```
 me |> Middle East Technical University (Ankara)
@@ -14,7 +14,7 @@ me |> Middle East Technical University (Ankara)
 
 <h2 style="font-family: consolas;">❤️ I like</h2>
 
-I am enthusiastic about all things <span style="color:tomato">OR</span>: decision science, mathematical optimization, algorithms, networks, routing, multiobjective decision making and decision making under uncertainty. I enjoy <span style="color:tomato">computation</span> a lot, working on efficient concurrent data structures and parallel computation. Least but not the least, I love <span style="color:tomato">rust</span> ❤️🦀.
+I am enthusiastic about all things <span style="color:tomato">**OR**</span>: decision science, mathematical optimization, algorithms, networks, routing, multiobjective decision making and decision making under uncertainty. I enjoy <span style="color:tomato">**computation**</span> a lot, working on efficient concurrent data structures and parallel computation. Least but not the least, I love <span style="color:tomato">**rust**</span> ❤️🦀.
 
 
 
@@ -29,8 +29,8 @@ For the latter, we are seeking flexible tools which allow for conveniently repre
 Imo, speed and type system of rust makes it the perfect language for rich and flexible optimization algorithms. It allows us to compose real life constraints as if we are working with a dynamic high level language, while our solutions are performant and memory efficient. For more details on this fitness, you may see the following [article](https://orxfun.github.io/orxfun-notes/#/zero-cost-composition-2025-10-15) and [talk](https://orxfun.github.io/talk-composing-zero-cost-abstractions-in-route-optimization/).
 
 My work on OR & rust goal is currently split into two parallel streams:
-* Composable, flexible and efficient <span style="color:tomato">local search</span> algorithms ([orx-local-search](https://github.com/orxfun/orx-local-search)). I will probably branch from this to focus specifically on <span style="color:tomato">vehicle routing</span> algorithms.
-* An expressive, solver-agnostic, type-safe, macro-free and concise <span style="color:tomato">mathematical modeling</span> tool ([orx-math-model](https://github.com/orxfun/orx-math-model)). You may see a prototype in c# below ([zoom in 🔎](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif)).
+* Composable, flexible and efficient <span style="color:tomato">**local search**</span> algorithms ([orx-local-search](https://github.com/orxfun/orx-local-search)). I will probably branch from this to focus specifically on <span style="color:tomato">**vehicle routing**</span> algorithms.
+* An expressive, solver-agnostic, type-safe, macro-free and concise <span style="color:tomato">**mathematical modeling**</span> tool ([orx-math-model](https://github.com/orxfun/orx-math-model)). You may see a prototype in c# below ([zoom in 🔎](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif)).
 
 ![knapsack](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack-540w.gif)
 
