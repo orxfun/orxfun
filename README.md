@@ -2,6 +2,8 @@
 
 I am an <span style="color:tomato">**operations research (OR)**</span> scientist, interested in optimization, algorithms and systems thinking & design; and a rust developer 🦀.
 
+Working on **rust & OR** and **concurrency & parallelization in rust**, and various exciting side topics.
+
 | [github](https://github.com/orxfun) | [email](mailto:orx.ugur.arikan@gmail.com) | [discord](https://discord.gg/Jr9XDVqDtV) | [linkedin](https://www.linkedin.com/in/uarikan/) | [cv](https://orxfun.github.io/cv/) | [crates](https://crates.io/users/orxfun) |
 
 
