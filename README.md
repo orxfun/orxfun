@@ -24,7 +24,7 @@ Imo, speed and type system of rust makes it the perfect language for rich and fl
 
 My work on OR & rust goal is currently split into two parallel streams:
 * Composable, flexible and efficient <span style="color:tomato">**local search**</span> algorithms ([orx-local-search](https://github.com/orxfun/orx-local-search)). I will probably branch from this to focus specifically on <span style="color:tomato">**vehicle routing**</span> algorithms.
-* An expressive, solver-agnostic, type-safe, macro-free and concise <span style="color:tomato">**mathematical modeling**</span> tool ([orx-math-model](https://github.com/orxfun/orx-math-model)). You may see a prototype in c# below ([zoom in 🔎](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif)).
+* An expressive, solver-agnostic, type-safe, macro-free, concise, performant and parallelized <span style="color:tomato">**mathematical modeling**</span> tool ([orx-math-model](https://github.com/orxfun/orx-math-model)). You may see a prototype in c# below ([zoom in 🔎](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif)).
 
 ![knapsack](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack-540w.gif)
 
