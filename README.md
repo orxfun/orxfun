@@ -6,7 +6,7 @@ Working on **rust & OR** and **concurrency & parallelization in rust**, and vari
 
 | [github](https://github.com/orxfun) | [email](mailto:orx.ugur.arikan@gmail.com) | [discord](https://discord.gg/Jr9XDVqDtV) | [linkedin](https://www.linkedin.com/in/uarikan/) | [cv](https://rxresu.me/ugurarikan55/resume-ugur-arikan) | [crates](https://crates.io/users/orxfun) |
 
-https://github-readme-stats.vercel.app/api?username=orxfun&show_icons=true&theme=dark&locale=en
+<img src="https://github-readme-stats.vercel.app/api?username=orxfun&show_icons=true&theme=dark&locale=en" />
 
 
 <h2 style="font-family: consolas;">❤️ I like</h2>
