@@ -1,64 +1,45 @@
 <h1 align="center">Uğur Arıkan</h1>
 
-I am an <span style="color:tomato">**operations research (OR)**</span> scientist, interested in optimization, algorithms and systems thinking & design; and a rust developer 🦀.
+I work at the intersection of <span style="color:tomato">operations research, data science, and Rust software engineering</span>. I build optimization and decision-support systems, production software for computationally demanding problems, and reusable open-source crates with a focus on clarity, performance, and practical use.
 
-| [github](https://github.com/orxfun) | [email](mailto:orx.ugur.arikan@gmail.com) | [discord](https://discord.gg/Jr9XDVqDtV) | [linkedin](https://www.linkedin.com/in/uarikan/) | [cv](https://orxfun.github.io/cv/) | [crates](https://crates.io/users/orxfun) |
+| [github](https://github.com/orxfun) | [email](mailto:orx.ugur.arikan@gmail.com) | [linkedin](https://www.linkedin.com/in/uarikan/) | [crates](https://crates.io/users/orxfun) | [sponsor](https://github.com/sponsors/orxfun) |
 
+<h2 style="font-family: consolas;">About</h2>
 
+I am an operations research and data science professional who focuses on mathematical optimization, network and routing problems, decision-support systems, and research-backed engineering. I also build software in Rust, Python, C#, TypeScript/React, and SQL when the problem benefits from those tools.
 
-<h2 style="font-family: consolas;">❤️ I like</h2>
+My work is split across two main tracks:
 
-I am enthusiastic about all things <span style="color:tomato">**OR**</span>: decision science, mathematical optimization, algorithms, networks, routing, multiobjective decision making and decision making under uncertainty. I enjoy <span style="color:tomato">**computation**</span> a lot, working on efficient concurrent data structures and parallel computation. Least but not the least, I love <span style="color:tomato">**rust**</span> ❤️🦀.
+* <span style="color:tomato">OR and data science</span> for planning, optimization, simulation, and decision support.
+* <span style="color:tomato">Rust and systems software</span> for high-performance components, concurrency, parallel computation, and reusable libraries.
 
+<h2 style="font-family: consolas;">OR and data science</h2>
 
+I apply optimization in practice across network design, routing, facility location, capacity allocation, freight and loading problems, and scenario analysis. The goal is always the same: make the model precise, make the implementation reliable, and make the result useful for real decisions.
 
-<h2 style="font-family: consolas;">🎯 𝙸'𝚖 𝚞𝚙 𝚝𝚘</h2>
+Selected references:
 
-<h3 style="font-family: consolas; color:tomato">OR & rust</h3>
+* [Composing Zero-Cost Abstractions in Route Optimization](https://orxfun.github.io/talk-composing-zero-cost-abstractions-in-route-optimization/) — a talk at the intersection of OR and Rust.
+* [orxfun notes](https://orxfun.github.io/orxfun-notes/) — technical writing on ideas behind the work.
+* [math modeling library 🔎](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif) — a C# mathematical modeling library to draft the idea, being reworked with Rust
 
-Two of the big challenges in applying OR in practice might be (i) to explain complex solutions to decision makers and (ii) to address uniqueness or custom requirements of each real life problem. I am not yet actively working on (i) but I find using LLMs for this purpose very promising and watching the advances closely.
+<h2 style="font-family: consolas;">Rust and systems software</h2>
 
-For the latter, we are seeking flexible tools which allow for conveniently representing different sets of real life constraints. Although speed is an important feature in optimization tools, we even consider sacrificing performance to be able to deliver faster.
+I use Rust for production-grade optimization components, concurrent data structures, and reusable crates. Rust is especially useful when I need performance, memory safety, and strong abstractions together. I also use Python, C#, and TypeScript/React around those components when the broader system benefits from it.
 
-Imo, speed and type system of rust makes it the perfect language for rich and flexible optimization algorithms. It allows us to compose real life constraints as if we are working with a dynamic high level language, while our solutions are performant and memory efficient. For more details on this fitness, you may see the following [article](https://orxfun.github.io/orxfun-notes/#/zero-cost-composition-2025-10-15) and [talk](https://orxfun.github.io/talk-composing-zero-cost-abstractions-in-route-optimization/).
+Representative crates and projects:
 
-My work on OR & rust goal is currently split into two parallel streams:
-* Composable, flexible and efficient <span style="color:tomato">**local search**</span> algorithms ([orx-local-search](https://github.com/orxfun/orx-local-search)). I will probably branch from this to focus specifically on <span style="color:tomato">**vehicle routing**</span> algorithms.
-* An expressive, solver-agnostic, type-safe, macro-free and concise <span style="color:tomato">**mathematical modeling**</span> tool ([orx-math-model](https://github.com/orxfun/orx-math-model)). You may see a prototype in c# below ([zoom in 🔎](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif)).
+* [orx-parallel](https://crates.io/crates/orx-parallel) — a configurable parallel computation library.
+* [orx-concurrent-vec](https://crates.io/crates/orx-concurrent-vec) — a concurrent counterpart to `Vec`.
+* [orx-tree](https://crates.io/crates/orx-tree), [orx-linked-list](https://crates.io/crates/orx-linked-list), [orx-closure](https://crates.io/crates/orx-closure), [orx-network-flows](https://crates.io/crates/orx-network-flows) — crates with distinct use cases across data structures, closures, and optimization.
+* [orx-local-search](https://github.com/orxfun/orx-local-search) — composable local-search tooling for optimization.
 
-![knapsack](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack-540w.gif)
+<h2 style="font-family: consolas;">Open source</h2>
 
-
-
-
-
-
-<h3 style="font-family: consolas; color:tomato">concurrency and parallel computing</h3>
-
-I am working on a high performance, configurable and expressive parallel computation library in rust, [orx-parallel](https://crates.io/crates/orx-parallel). The crate is considerably mature, but also continuously improving with many new exciting challenges.
-
-The journey to build a parallel computation crate involved developing pinned vectors ([PinnedVec](https://crates.io/crates/orx-pinned-vec), [SplitVec](https://crates.io/crates/orx-split-vec) and [FixedVec](https://crates.io/crates/orx-fixed-vec)) and various concurrent data structures such as [ConcurrentBag](https://crates.io/crates/orx-concurrent-bag), [ConcurrentOrderedBag](https://crates.io/crates/orx-concurrent-ordered-bag), [ConcurrentIter](https://crates.io/crates/orx-concurrent-iter), [ConcurrentRecursiveIter](https://crates.io/crates/orx-concurrent-recursive-iter). While improving the parallel computation library, these data structures continue to evolve.
-
-On the other hand, [ConcurrentVec](https://crates.io/crates/orx-concurrent-vec) is developed without parallel computation in focus. It is designed to be the concurrent counterpart of the standard vec.
-
-
-
-
-<h3 style="font-family: consolas; color:tomato">miscellaneous side quests</h3>
-
-I also work on various side topics which are either relevant to efficient computation, or to improve ergonomics, or related to rust patterns. Some examples are:
-
-* [orx-iterable](https://crates.io/crates/orx-iterable) ➛ Defines and implements Iterable, Collection and CollectionMut traits to represent types that can be iterated over multiple times.
-* [orx-tree](https://crates.io/crates/orx-tree) ➛ A beautiful, convenient and efficient 🌳.
-* [orx-v](https://crates.io/crates/orx-v) ➛ Traits to unify all vectors!
-* [orx-priority-queue](https://crates.io/crates/orx-priority-queue) ➛ Priority queue traits and high performance d-ary heap implementations.
-* [orx-meta](https://crates.io/crates/orx-meta) ➛ Meta structures such as statically typed queues of heterogeneous elements.
-
-Finally, I write articles on this journey at [orxfun-notes](https://orxfun.github.io/orxfun-notes/).
-
-
-
+The `orx-*` ecosystem is my public playground for useful libraries, experiments, and production-oriented components. Some projects emphasize concurrency and parallelism, others focus on data structures, closures, or optimization-specific modeling. I aim for crates that are small enough to understand, but serious enough to be useful in real projects.
 
 <h2 style="font-family: consolas;">Connect</h2>
 
-If you are interested in what I aim, feel free to [email](mailto:orx.ugur.arikan@gmail.com), open an issue or contribute to the repos on [github](https://github.com/orxfun), or share your ideas at [discord](https://discord.gg/Jr9XDVqDtV), or [sponsor](https://github.com/sponsors/orxfun).
+If you want to follow the work, collaborate, propose or discuss an idea, please reach out via [email](mailto:orx.ugur.arikan@gmail.com), [GitHub](https://github.com/orxfun), [LinkedIn](https://www.linkedin.com/in/uarikan/), or [sponsor](https://github.com/sponsors/orxfun).
+
+<img src="https://github-stats-extended.vercel.app/api?username=orxfun&show_icons=true&theme=dark" />
