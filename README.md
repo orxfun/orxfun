@@ -31,8 +31,7 @@ Representative crates and projects:
 
 * [orx-parallel](https://crates.io/crates/orx-parallel) — a configurable parallel computation library.
 * [orx-concurrent-vec](https://crates.io/crates/orx-concurrent-vec) — a concurrent counterpart to `Vec`.
-* [orx-tree](https://crates.io/crates/orx-tree), [orx-linked-list](https://crates.io/crates/orx-linked-list), [orx-closure](https://crates.io/crates/orx-closure), [orx-network-flows](https://crates.io/crates/orx-network-flows) — crates with distinct use cases across data structures, closures, and optimization.
-* [orx-local-search](https://github.com/orxfun/orx-local-search) — composable local-search tooling for optimization.
+* [orx-tree](https://crates.io/crates/orx-tree), [orx-linked-list](https://crates.io/crates/orx-linked-list), [orx-closure](https://crates.io/crates/orx-closure) — crates with distinct use cases.
 
 <h2 style="font-family: consolas;">Open source</h2>
 
