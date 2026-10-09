@@ -39,6 +39,6 @@ The `orx-*` ecosystem is my public playground for useful libraries, experiments,
 
 <h2 style="font-family: consolas;">Connect</h2>
 
-If you want to follow the work, collaborate, propose or discuss an idea, please reach out via [email](mailto:orx.ugur.arikan@gmail.com), [GitHub](https://github.com/orxfun), [LinkedIn](https://www.linkedin.com/in/uarikan/), or [sponsor](https://github.com/sponsors/orxfun).
+If you want to follow the work, collaborate, propose or discuss an idea, please reach out via [email](mailto:orx.ugur.arikan@gmail.com), [GitHub](https://github.com/orxfun), [LinkedIn](https://www.linkedin.com/in/uarikan/).
 
 <img src="https://github-stats-extended.vercel.app/api?username=orxfun&show_icons=true&theme=dark" />
