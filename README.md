@@ -19,9 +19,9 @@ I apply optimization in practice across network design, routing, facility locati
 
 Selected references:
 
-* [Composing Zero-Cost Abstractions in Route Optimization](https://orxfun.github.io/talk-composing-zero-cost-abstractions-in-route-optimization/) — a talk at the intersection of OR and Rust.
-* [orxfun notes](https://orxfun.github.io/orxfun-notes/) — technical writing on ideas behind the work.
-* [math modeling library 🔎](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif) — a C# mathematical modeling library to draft the idea, being reworked with Rust
+* [orxfun notes](https://orxfun.github.io/orxfun-notes/) — technical writing on ideas.
+* [math modeling library 🔎](https://orxfun.github.io/orx-mathprog-gallery/img/orx_model_building_knapsack.gif) — a C# mathematical modeling library to draft the idea, being reworked with Rust.
+* [Composing Zero-Cost Abstractions](https://orxfun.github.io/talk-composing-zero-cost-abstractions-in-route-optimization/) — a talk at the intersection of OR and Rust.
 
 <h2 style="font-family: consolas;">Rust and systems software</h2>
 
