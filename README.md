@@ -2,7 +2,7 @@
 
 I work at the intersection of <span style="color:tomato">operations research, data science, and Rust software engineering</span>. I build optimization and decision-support systems, production software for computationally demanding problems, and reusable open-source crates with a focus on clarity, performance, and practical use.
 
-| [github](https://github.com/orxfun) | [email](mailto:orx.ugur.arikan@gmail.com) | [linkedin](https://www.linkedin.com/in/uarikan/) | [crates](https://crates.io/users/orxfun) | [sponsor](https://github.com/sponsors/orxfun) |
+| [github](https://github.com/orxfun) | [email](mailto:orx.ugur.arikan@gmail.com) | [linkedin](https://www.linkedin.com/in/uarikan/) | [crates](https://crates.io/users/orxfun) |
 
 <h2 style="font-family: consolas;">About</h2>
 
